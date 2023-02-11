@@ -1,0 +1,45 @@
+.links {
+  text-decoration: none;
+}
+.head-main-cont {
+  background-color: #152850;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.website-logo {
+  width: 150px;
+}
+.logout-btn {
+  background-color: transparent;
+  color: #ffffff;
+  height: 40px;
+  width: 130px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  outline: none;
+  margin-top: 14px;
+}
+.logout-btn:hover {
+  background-color: #1565d8;
+  color: #ffffff;
+  transition-duration: 1s;
+}
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-img {
+  height: 60vh;
+}
+.home-head {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 600;
+}
