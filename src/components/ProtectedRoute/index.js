@@ -5,8 +5,6 @@ const ProtectedRoute = props => {
   const token = Cookies.get('jwt_token')
   if (token === undefined) {
     return <Redirect to="/ebank/login" />
-  } else {
-    return <Route {...props} />
-  }
+  } return <Route {...props} />
 }
 export default ProtectedRoute
